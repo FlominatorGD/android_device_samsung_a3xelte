@@ -37,6 +37,9 @@ CUSTOM_BUILD_TYPE := OFFICIAL
 # Boot animation resolution
 TARGET_BOOT_ANIMATION_RES := 720
 
+#Gapps
+TARGET_GAPPS_ARCH:=arm
+
 # Set those variables here to overwrite the inherited values.
 PRODUCT_NAME := aosp_a3xelte
 PRODUCT_DEVICE := a3xelte
