@@ -40,6 +40,13 @@
          device from the display on/off state. -->
     <bool name="config_powerDecoupleInteractiveModeFromDisplay">false</bool>
 
+    <integer name="config_deviceHardwareWakeKeys">65</integer>
+
+    <!-- Button brightness -->
+    <bool name="config_button_brightness_support">true</bool>
+    <integer name="config_button_brightness_default">128</integer>
+
+
     <!-- Screen brightness used to dim the screen while dozing in a very low power state.
          May be less than the minimum allowed brightness setting
          that can be set by the user. -->
