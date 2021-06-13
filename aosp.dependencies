@@ -36,6 +36,6 @@
     {
         "repository": "kernel_samsung_universal7580",
         "target_path": "kernel/samsung/universal7580",
-        "branch": "aosp-10"
+        "branch": "lineage.17.1"
     }   
 ]    
