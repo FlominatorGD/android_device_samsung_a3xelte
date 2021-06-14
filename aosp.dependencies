@@ -41,6 +41,6 @@
     {
         "repository": "vendor_samsung",
         "target_path": "vendor/samsung",
-        "branch": "lineage-17.1"
+        "branch": "aosp-10"
     }
 ]
