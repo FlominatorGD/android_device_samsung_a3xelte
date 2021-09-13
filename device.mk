@@ -28,6 +28,11 @@ TARGET_BOOTANIMATION_PRELOAD := true
 TARGET_BOOTANIMATION_TEXTURE_CACHE := true
 TARGET_SCREEN_HEIGHT := 1080
 TARGET_SCREEN_WIDTH := 720
+TARGET_USES_BLUR := false
+IS_PHONE := true
+
+#Build Vanilla
+TARGET_INCLUDE_GAPPS := false
 
 # Bluetooth
 PRODUCT_COPY_FILES += \
@@ -35,6 +40,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.0-service
+
 
 # Camera
 PRODUCT_PACKAGES += \
