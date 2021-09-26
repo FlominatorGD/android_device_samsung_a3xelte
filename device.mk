@@ -31,9 +31,6 @@ TARGET_SCREEN_WIDTH := 720
 TARGET_USES_BLUR := false
 IS_PHONE := true
 
-#Build Vanilla
-TARGET_INCLUDE_GAPPS := false
-
 # Bluetooth
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/bluetooth/bt_vendor.conf:system/etc/bluetooth/bt_vendor.conf
@@ -45,7 +42,7 @@ PRODUCT_PACKAGES += \
 # Camera
 PRODUCT_PACKAGES += \
     camera.universal7580 \
-    Snap
+    opencamera
 
 # hardware/samsung/AdvancedDisplay (MDNIE)
 PRODUCT_PACKAGES += \

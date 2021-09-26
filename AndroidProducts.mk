@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2018 The derpOS Project
+# Copyright (C) 2018 The octaviOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -17,9 +17,9 @@
 LOCAL_PATH := device/samsung/a3xelte
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_PATH)/derp_a3xelte.mk
+    $(LOCAL_PATH)/octavi_a3xelte.mk
 
 COMMON_LUNCH_CHOICES := \
-    derp_a3xelte-user \
-    derp_a3xelte-userdebug \
-    derp_a3xelte-eng
+    octavi_a3xelte-user \
+    octavi_a3xelte-userdebug \
+    octavi_a3xelte-eng
