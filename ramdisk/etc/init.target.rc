@@ -45,8 +45,6 @@ on fs
     copy /efs/Battery/prev_batt_capacity_max /sys/class/power_supply/battery/batt_capacity_max
 
 on property:sys.boot_completed=1
-    write /proc/sys/vm/dirty_bytes 41943040
-    write /proc/sys/vm/dirty_background_bytes 20971520
 
     # Set best cache size for internal and external storages
     write /sys/block/mmcblk0/bdi/read_ahead_kb 128
