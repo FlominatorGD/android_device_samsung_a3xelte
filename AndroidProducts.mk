@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2018 The ssosOS Project
+# Copyright (C) 2018 The octaviOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -17,9 +17,9 @@
 LOCAL_PATH := device/samsung/a3xelte
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_PATH)/ssos_a3xelte.mk
+    $(LOCAL_PATH)/octavi_a3xelte.mk
 
 COMMON_LUNCH_CHOICES := \
-    ssos_a3xelte-user \
-    ssos_a3xelte-userdebug \
-    ssos_a3xelte-eng
+    octavi_a3xelte-user \
+    octavi_a3xelte-userdebug \
+    octavi_a3xelte-eng
