@@ -22,10 +22,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_l_mr1.mk)
 
 # Inherit common Lineage phone.
-$(call inherit-product, vendor/havoc/config/common_full_phone.mk)
+$(call inherit-product, vendor/dot/config/common.mk)
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := havoc_a3xelte
+PRODUCT_NAME := dot_a3xelte
 PRODUCT_DEVICE := a3xelte
 PRODUCT_MODEL := SM-A310F
 PRODUCT_BRAND := samsung
@@ -33,12 +33,13 @@ PRODUCT_MANUFACTURER := samsung
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
 TARGET_INCLUDE_LIVE_WALLPAPERS := false
-
 TARGET_GAPPS_ARCH := arm
-
 TARGET_SUPPORTS_BLUR := false
-
+TARGET_INCLUDE_PIXEL_CHARGER := true
 TARGET_FACE_UNLOCK_SUPPORTED := false
+
+# Dot OS Properties
+DEVICE_MAINTAINER := Flominator
 
 TARGET_RELEASETOOLS_EXTENSIONS := $(LOCAL_PATH)
 
