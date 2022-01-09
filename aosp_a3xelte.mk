@@ -22,10 +22,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_l_mr1.mk)
 
 # Inherit common Lineage phone.
-$(call inherit-product, vendor/havoc/config/common_full_phone.mk)
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := havoc_a3xelte
+PRODUCT_NAME := aosp_a3xelte
 PRODUCT_DEVICE := a3xelte
 PRODUCT_MODEL := SM-A310F
 PRODUCT_BRAND := samsung
@@ -33,13 +33,9 @@ PRODUCT_MANUFACTURER := samsung
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
 TARGET_INCLUDE_LIVE_WALLPAPERS := false
-
 TARGET_GAPPS_ARCH := arm
-
 TARGET_SUPPORTS_BLUR := false
-
 TARGET_FACE_UNLOCK_SUPPORTED := false
-
 TARGET_RELEASETOOLS_EXTENSIONS := $(LOCAL_PATH)
 
 # Boot animation resolution
