@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2018 The havocOS Project
+# Copyright (C) 2018 The lineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -17,9 +17,9 @@
 LOCAL_PATH := device/samsung/a3xelte
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_PATH)/havoc_a3xelte.mk
+    $(LOCAL_PATH)/lineage_a3xelte.mk
 
 COMMON_LUNCH_CHOICES := \
-    havoc_a3xelte-user \
-    havoc_a3xelte-userdebug \
-    havoc_a3xelte-eng
+    lineage_a3xelte-user \
+    lineage_a3xelte-userdebug \
+    lineage_a3xelte-eng
